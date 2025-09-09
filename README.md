@@ -27,7 +27,7 @@ The `main.cpp` file includes a **step-by-step demonstration** of these actions w
 3. Compile all `.cpp` files together:
 
 ```bash
-g++ -std=c++17 main.cpp User.cpp Librarian.cpp Book.cpp Catalog.cpp -o library_system
+g++ -std=c++17 main.cpp User.cpp Librarian.cpp Book.cpp Catalog.cpp Rent.cpp -o library_system
 ./library_system
 ```
 
