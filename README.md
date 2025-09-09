@@ -32,7 +32,7 @@ g++ -std=c++17 main.cpp User.cpp Librarian.cpp Book.cpp Catalog.cpp -o library_s
 ```
 
 ## NOTE
-The payFine feature works based on ctime, hence can only be demonstrated by changing the RENTAL_TIME in User.cpp (set it to 1, default is 7 days)
+The payFine feature works based on ctime, so the due time can be modified in User.cpp by modified RENTAL_TIME
 
 
 ## UML Class Diagram
